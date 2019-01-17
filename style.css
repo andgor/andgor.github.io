@@ -23,9 +23,9 @@
     display: none;
 }
 
-.details-company_phone {
+/* .details-company_phone {
     display: none;
-}
+} */
 
 .details-company_worktime {
     display: none;
@@ -63,7 +63,7 @@
     }
 
     .header {
-        font-size: 8pt;
+        font-size: 9pt;
     }
     
     .name-company{
@@ -84,11 +84,20 @@
         -webkit-appearance: none;
         -moz-appearance: none;
         font-family: 'Calibri';
-        font-size: 8pt;
+        font-size: 9pt;
     }
     
     .details-company_phone {
         display: block;
+    }
+
+    #phone {
+        border: none;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        font-family: 'Calibri';
+        font-size: 9pt;
     }
     
     .details-company_worktime {
@@ -176,14 +185,16 @@
          border: none;
          font-family: 'Calibri';
          font-size: 12pt;
+         text-align: center;
     }
-    
+
     #repairs-prepay {
          border: none;
          font-family: 'Calibri';
          font-size: 12pt;
+         text-align: center;
     }
-    
+
     .conditions {
         display: block;
         margin-bottom: 60px;
